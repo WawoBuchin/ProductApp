@@ -26,12 +26,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnViewProducts:
                 Intent i = new Intent(getApplicationContext(), AllProductActivity.class);
                 startActivity(i);
-                finish();
                 break;
             case R.id.btnCreateProducts:
                 i = new Intent(getApplicationContext(), NewProductActivity.class);
                 startActivity(i);
-                finish();
                 break;
         }
     }
